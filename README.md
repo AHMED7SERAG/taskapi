@@ -58,6 +58,19 @@ php artisan key:generate
 now you can start project by `php artisan serve`
  
 
+
+ ````````````
+ http://127.0.0.1:8000/dashboard/login
+
+ and admin 
+ email ====> admin@admin.com,
+password ====> 123456789,
+
+and for api use 
+ email ====> user@user.com,
+password ====> 123456789,
+ ````````````
+
  ````````````````````
  find collection for api and will find admin panel fir admin task in file 
 
