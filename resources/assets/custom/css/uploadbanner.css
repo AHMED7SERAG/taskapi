@@ -1,0 +1,31 @@
+.banner-div{
+        transform: translate(0%,0%);
+        overflow: hidden;
+    }
+
+    #banner{
+        padding:0 !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    #banner-file{
+        display: none;
+    }
+
+    #bannerBtn{
+        height: 300px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        background: rgba(0, 0, 0, 0.7);
+        color: wheat;
+        line-height: 80px;
+        font-family: sans-serif;
+        font-size: 15px;
+        cursor: pointer;
+    }
+

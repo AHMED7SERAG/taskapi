@@ -1,0 +1,373 @@
+{
+	"info": {
+		"_postman_id": "e5807bd3-b6fc-4b60-8296-7d859763d639",
+		"name": "task api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9529719"
+	},
+	"item": [
+		{
+			"name": "apis",
+			"item": [
+				{
+					"name": "users transactions",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "8|3ZCyY60YHMRLNY4nWdjsnCyMuFrUqdm6MfC7eRYC",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": []
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/users/transactions",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"users",
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "generate Monthly Report",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "8|3ZCyY60YHMRLNY4nWdjsnCyMuFrUqdm6MfC7eRYC",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "ahmedalreaty@hotmail.com",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "Ahmed serag",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "lang",
+									"value": "ar",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "123456789",
+									"type": "text"
+								},
+								{
+									"key": "type",
+									"value": "user",
+									"type": "text"
+								},
+								{
+									"key": "phone",
+									"value": "01097845612",
+									"type": "text"
+								},
+								{
+									"key": "firebase_token",
+									"value": "aaaaaaaaaaaaaaaaaaaaa",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/generate-monthly-report?start_date=2023-04-01&end_date=2023-11-30",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"generate-monthly-report"
+							],
+							"query": [
+								{
+									"key": "start_date",
+									"value": "2023-04-01"
+								},
+								{
+									"key": "end_date",
+									"value": "2023-11-30"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "super_admin@admin.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "G7@bxNf#qWmT",
+									"type": "text"
+								},
+								{
+									"key": "lang",
+									"value": "ar",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/auth/login",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create transaction",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "8|3ZCyY60YHMRLNY4nWdjsnCyMuFrUqdm6MfC7eRYC",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "super_admin@admin.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "G7@bxNf#qWmT",
+									"type": "text"
+								},
+								{
+									"key": "lang",
+									"value": "ar",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/transactions/store?amount=1000&payer=1&due_on=2023-12-01&vat=10&is_vat_inclusive=1",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"transactions",
+								"store"
+							],
+							"query": [
+								{
+									"key": "amount",
+									"value": "1000"
+								},
+								{
+									"key": "payer",
+									"value": "1",
+									"description": "users id "
+								},
+								{
+									"key": "due_on",
+									"value": "2023-12-01"
+								},
+								{
+									"key": "vat",
+									"value": "10",
+									"description": "vat value"
+								},
+								{
+									"key": "is_vat_inclusive",
+									"value": "1",
+									"description": "1 or 0"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "create payment",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "8|3ZCyY60YHMRLNY4nWdjsnCyMuFrUqdm6MfC7eRYC",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "super_admin@admin.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "G7@bxNf#qWmT",
+									"type": "text"
+								},
+								{
+									"key": "lang",
+									"value": "ar",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/payments/store?amount=1000&transaction_id=1&paid_on=2023-12-01&details=",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"payments",
+								"store"
+							],
+							"query": [
+								{
+									"key": "amount",
+									"value": "1000"
+								},
+								{
+									"key": "transaction_id",
+									"value": "1",
+									"description": "transaction id"
+								},
+								{
+									"key": "paid_on",
+									"value": "2023-12-01"
+								},
+								{
+									"key": "details",
+									"value": ""
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "local_url",
+			"value": "http://taskapi.test/api",
+			"type": "string"
+		}
+	]
+}

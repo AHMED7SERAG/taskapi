@@ -1,0 +1,83 @@
+{
+    "menus": [
+        {
+            "section": "Resources",
+            "items": [
+                { "title": "Field", "url": "/admin/field" },
+                { "title": "FieldLists", "url": "/admin/field-lists" },
+                { "title": "DocumentFile", "url": "/admin/document-files" }
+                { "title": "fields", "url": "/admin/fields" },
+                { "title": "field-lists", "url": "/admin/field-lists" },
+                { "title": "types", "url": "/admin/types" },
+                { "title": "dsp-languages", "url": "/admin/dsp-languages" },
+                {
+                    "title": "document-storing-places",
+                    "url": "/admin/document-storing-places"
+                }
+            ]
+        },
+        {
+            "section": "Admin Panel",
+            "items": [
+                {
+                    "title": "Permissions",
+                    "icon": "fa fa-lock",
+                    "url": "/admin/permissions"
+                },
+                {
+                    "title": "Roles",
+                    "icon": "fas fa-tree",
+                    "url": "/admin/roles"
+                },
+                {
+                    "title": "Jobs",
+                    "icon": "fa fa-suitcase",
+                    "url": "/admin/jobs"
+                },
+                {
+                    "title": "Users",
+                    "icon": "fa fa-users",
+                    "url": "/admin/users"
+                }
+            ]
+        },
+        {
+            "section": "Tools",
+            "items": [
+
+
+
+                {
+                    "title": "Languages",
+                    "icon": "fa fa-language",
+                    "url": "/admin/languages"
+                },
+                {
+                    "title": "Translations",
+                    "icon": "fa fa-list",
+                    "url": "/admin/translations"
+                },
+                {
+                    "title": "Pages",
+                    "icon": "fas fa-book",
+                    "url": "/admin/pages"
+                },
+                {
+                    "title": "Activity Logs",
+                    "icon": "fa fa-history",
+                    "url": "/admin/activitylogs"
+                },
+                {
+                    "title": "Settings",
+                    "icon": "fa fa-cog",
+                    "url": "/admin/settings"
+                },
+                {
+                    "title": "Generator",
+                    "icon": "far fa-plus-square",
+                    "url": "/admin/generator"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+body:not(.layout-fixed) .main-sidebar{
+    border-top-left-radius:30px !important;
+    background-color:white;
+    top:100px;
+}
+.main-header {
+    margin-right: 0px !important;
+    border-bottom-left-radius:30px !important;
+}
+.main-footer {
+    position: relative;
+    bottom: -100px;
+    width: 100%;
+    margin-right:0px !important;
+}
+.card{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    background-color:$jinja;
+}
+.btn-jinja{
+    color:$white;
+    background-color:$jinja;
+}
+.blue-title{
+    color:#231F59;
+}
+.widget-user .widget-user-header {
+    height: 300px !important;
+}
+.widget-user .widget-user-image {
+    margin-left: -75px !important;
+    top: 215px !important;
+}
+.widget-user .widget-user-image > img {
+    width: 150px !important;
+}
+.blue-btn{
+    background:#231F59;
+    color:white;
+}
+.grey-color{
+    color:#b6b6b6;
+}
+.alert-jinja {
+    color: #fff;
+    background-color: #EA4939;
+    border-color: #EA4939;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    float: right!important;
+}
+.main-sidebar, .main-sidebar:before {
+    width: 270px !important;
+}
+@media (min-width: 768px){
+body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .content-wrapper, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-footer, body:not(.sidebar-mini-md):not(.sidebar-mini-xs):not(.layout-top-nav) .main-header {
+    margin-right: 270px;
+}
+}

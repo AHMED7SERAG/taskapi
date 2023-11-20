@@ -1,0 +1,33 @@
+<?php
+
+return array (
+  'users' => 'المستخدمين',
+  'full_name' => 'الأسم بالكامل',
+  'username' => 'أسم المستخدم',
+  'password' => 'كلمة المرور',
+  'role' => 'الوظائف',
+  'users_management' => 'إدارة المستخدمين',
+  'view_all' => 'ادارة المستخدمين',
+  'create' => 'إضافة مستخدم',
+  'admin' => 'مشرف',
+  'merchant' => 'تاجر',
+  'employee' => 'موظف',
+  'customer' => 'زبون',
+  'whatsapp' => 'واتساب',
+  'type' => 'نوع',
+  'shop' => 'المتجر',
+    'job_title' => 'المسمي الوظيفي',
+    'roles' => 'الوظائف',
+    'max_missions' =>'أقصي عدد للمهام',
+    'job_id' => 'المسمي الوظيفي',
+    'email' => 'البريد الإلكتروني',
+    'selection' => 'إتاحة الاختيار',
+    'yes' => 'نعم',
+    'no' => 'لا',
+    'change-password' => 'تعديل كلمة المرور',
+    'password_confirmation' => 'تأكيد كلمة المرور',
+    'active' => 'نشط',
+    'not_active' => 'معلق',
+    'all-status' => 'الكل',
+
+  );

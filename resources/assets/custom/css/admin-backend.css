@@ -1,0 +1,215 @@
+/******Select 2********/
+.select2-container {
+    min-width: 130px;
+    display: inherit;
+}
+.select2-container .select2-selection--single{
+    height: calc(2.25rem + 2px);
+    border-radius: 0px;
+}
+.select2-container--default .select2-results__option{
+    min-height: 32px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    top: 8px;
+}
+.select2-container--default .select2-selection--multiple{
+    border-radius: 0px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    background-color: #007bff;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove{
+    color: #fff;
+}
+.select2-results__options--nested{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+ul[role="listbox"] > li[role="option"] {
+    font-weight: bold;
+    padding: 6px 6px!important;
+}
+
+/*****Form group******/
+.form-group {
+    float: left;
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
+    position: relative;
+}
+.form-actions {
+    clear: both;
+    padding: 20px;
+}
+.form-group .control-label {
+    width: 100%;
+}
+.form-control{
+    border-radius: 0px;
+}
+
+/************Other******/
+.badge{
+    border-radius: 10px;
+}
+td, th {
+    vertical-align: middle!important;
+    border-bottom: 1px solid #dee2e6;
+    text-align: center;
+}
+.bg-header-jinja {
+    background-color: #EA4939;
+    color: #fff;
+}
+.card-header {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+.filter-table {
+    width: 100%;
+}
+.btn-jinja:hover{
+    color: #ea4939 !important;
+    background: transparent;
+    border: 1px solid #ea4939;
+    transition: .6s ease-out;
+}
+.nav-pills .nav-link:not(.active):hover{
+    color: #ea4939;
+    background: transparent;
+    border: 1px solid #ea4939;
+    transition: .4s ease-out;
+}
+.actions {
+    min-width: 110px;
+}
+.input-overlay-btn {
+    position: absolute;
+    top: 38px;
+    z-index: 10;
+    cursor: pointer;
+    padding: 8px;
+    right: 0;
+}
+.table .data-table {
+    max-width: 100%;
+    width: 100%;
+}
+.font14{
+    font-size: 14px;
+}
+.font16{
+    font-size: 16px;
+}
+.product-list-in-box>.item {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid #f4f4f4;
+}
+html{
+    overflow-x: hidden;
+}
+
+/*****file upload*********/
+.file-upload{
+    width: 70%;
+}
+.file-upload::file-selector-button {
+    height: 24px;
+    line-height: 2px;
+}
+.flying-img {
+    max-width: 29%;
+    height: 70px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+/*********** field set ***********/
+fieldset{
+    margin-bottom: 15px;
+}
+
+legend {
+    background-color: #ea4939;
+    color: white;
+    padding: 5px 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+/************ checkbox big ********/
+.big-checkbox-label{
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle
+}
+.big-checkbox-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    border: 1px solid #fff;
+}
+.big-checkbox {
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 11px;
+}
+.progress {
+    position: relative;
+    width: 100%;
+    padding: 1px;
+    border-radius: 15px;
+    height: 30px;
+    background-color: #a7a7a7;
+    display: none
+}
+
+.bar {
+    width: 0%;
+    height: 30px;
+    border-radius: 15px;
+}
+
+.percent {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    color: #fff;
+    font-size: medium;
+}
+
+.pagination .page-item .page-link{
+    border-radius: 5px!important;
+    color: #fff;
+    background-color: #231F59;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+}
+.pagination .active .page-link{
+    background-color: #EA4939;
+}
+.select-product{
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.product-image-container {
+    height:125px;
+    border-radius: 10px;
+    line-height: 125px;
+}
+.offer-product{
+    width: 40%;
+    border: 3px solid #adb5bd;
+    display: inline-block;
+}
